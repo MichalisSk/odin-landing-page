@@ -1,0 +1,107 @@
+*{
+    font-family: 'Roboto';
+    margin: 0px;
+}
+
+/*css for the header*/
+
+.headerContainer{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 10px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.headerLogo{
+    padding-left: 100px;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.headerLinkThree{
+    padding-right: 100px;
+}
+
+.headerLinkOne,.headerLinkTwo,.headerLinkThree{
+    color: gray;
+    margin-top: 15px;
+}
+
+/* css for the main text */
+.mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    background-color: #1F2937;
+  /*  gap: 940px; */
+    height: 250px;
+    justify-content: space-between;
+}
+
+#bigtext{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+}
+
+#subtext{
+    color: gray;
+    margin-bottom: 2px;
+    margin-top: 0px
+}
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5%;
+    border: none;
+}
+
+.imgPlaceholder{
+    display: flex;
+    background-color: gray;
+    width: 400px;
+    height: 150px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 95px;
+    margin-top: 50px;
+}
+
+/*middle part of the site */
+
+.h1Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.squareContainer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.square{
+    border: 2px solid #3882F6;
+    border-radius: 7px;
+    height: 90px;
+    width: 90px;
+    
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 2px;
+}
+
+.squareText{
+    color: gray;
+}

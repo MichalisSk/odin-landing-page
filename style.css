@@ -122,3 +122,46 @@
     color: black;
     margin-left: 400px;
 }
+
+.simpleContainer {
+    display: flex;
+    height: 200px;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionContainer {
+    display: flex;  
+    color: #ffffff;
+    width: 700px;
+    height: 80px;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+#sign{
+    color: #b9bab8;
+}
+
+#btn2{
+    display: flex;
+    width: 70px;
+    justify-content: center;
+    background-color:#3882F6;
+    color: #ffffff;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+
+.copyrightContainer {
+    display: flex;
+    color: rgb(182, 178, 178);
+    height: 50px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
